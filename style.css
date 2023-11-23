@@ -11,10 +11,19 @@
 }
 
 .navbar {
-    padding: 20px;
+    
     background-color: #1f2937;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family:'Roboto', sans-serif; 
+}
+
+.container {
+    padding: 0 90px;
+}
 .logo {
     font-weight: bold;
     color: #f9faf8;
@@ -42,6 +51,7 @@ a {
     background-color: #1f2937 ;
     padding-top: 20px;
     padding-bottom: 60px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -55,14 +65,14 @@ p{
     color: #e5e7eb;
 }
 
-img {
-    max-width: 1200px;
-    max-height: 300px;
+.head-img {
+    width: 400px;
+    height: 200px;
     margin-left: 30px;
 }
 
-.text {
-    width: 300px;
+.container .text {
+    max-width: 500px;
 }
 
 button {
@@ -72,4 +82,31 @@ button {
     border-radius: 10px;
     width: 100px;
     border: none;
+}
+
+.container .images {
+    max-width: 200px;
+    min-height: 150px;
+    border: #3882f6 solid 5px;
+    border-radius: 15px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.box .text {
+    max-width: 200px;
+    text-align: center;
 }
